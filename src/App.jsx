@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import Nav from './components/Nav/Nav'
-import Main from './components/Main/Main'
-import Footer from './components/Footer/Footer'
+import Nav from './components/Nav/Nav';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   constructor() {
@@ -12,12 +12,12 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <Nav />
         <Main />
         <Footer />
       </div>
-    )
+    );
   }
 }
 
